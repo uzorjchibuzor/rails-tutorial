@@ -30,7 +30,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "email should follow the normal format" do
-    @user.email = "user@example..com"
+    @user.email = "userexample..com"
     assert_not @user.valid?
   end
 
