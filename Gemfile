@@ -43,6 +43,15 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails', '4.3.1'
 
+# For image uploads
+
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
+
+
+group :production do
+  gem 'fog', '1.42'
+end
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
